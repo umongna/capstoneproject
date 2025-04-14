@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block title %} {{ block.super }}{% endblock title %}
+
+{% block content %}
+<div class="container" style="padding-top: 50px;">
+<div class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Banking System</h1>
+        <hr>
+        <p class="lead text-muted">A thoughtfully curated collection showcasing unique creations and inspiring ideas. Crafted with care by its creator, there's something special waiting for you in every piece—take a moment to explore..</p>
+        <p>
+          <a class="btn btn-primary btn-md" href="{% url 'accounts:login' %}" role="button">Get Account Info</a>
+          <a class="btn btn-success btn-md" href="{% url 'accounts:register' %}" role="button">Create  Account</a>
+        </p>
+      </div>
+</div>
+</div>
+
+{% endblock content %}
