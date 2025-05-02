@@ -18,4 +18,4 @@ Run Server**
 python manage.py runserver
 ```
 
-Banking
+Banki
